@@ -1,0 +1,13 @@
+.catalog:
+  name: Openy
+  version: 1.0
+  description: |
+    Openy demo setup
+  uuid: openy-0
+  questions:
+    - variable: "exo-scale"
+      description: "Number of openy nodes."
+      label: "Number of Openy Nodes:"
+      required: true
+      default: 1
+      type: "int"
